@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formcomponent{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 40px 40px;
+    border-radius: 20px;
+}
+
+.form-details{
+    width: 50%;
+    padding: 0px 20px 0px 10px;
+}
+
+.form-details h1{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.form-details p{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.form-details ul{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.form-details ul li{
+    padding-bottom: 10px;
+    background: url('assets/images/icon-list.svg') no-repeat left center;
+    padding: 5px 10px 5px 25px;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(235, 18%, 26%);
+}
+
+input{
+    padding: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 6px;
+    color: hsl(231, 7%, 60%);
+    margin: 10px 0px;
+}
+
+button{
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.form-cover{
+    width: 50%;
+    height: 456px;
+}
+
+.form-cover img{
+    width: 100%;
+    height: 100%;
+}
